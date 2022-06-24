@@ -6,7 +6,7 @@ $('nav button').click(function(){
     $('nav').animate({left:'-100%'})
 });
 
-$(window).resize()(function(){
+$(window).resize(function(){
     if($('nav').removeAttr('style'));
 });
 
